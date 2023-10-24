@@ -34,11 +34,9 @@ import {
 } from 'react-icons/fi'
 
 import Overview from '../../Containers/AdminViews/Overview'
-import Template from '../../Containers/AdminViews/Template'
 import Posts from '../../Containers/AdminViews/Posts'
 import Categories from '../../Containers/AdminViews/Categories'
 import Users from '../../Containers/AdminViews/Users'
-import Analytics from '../../Containers/AdminViews/Analytics'
 import Settings from '../../Containers/AdminViews/Settings'
 
 const Panel = () => {
@@ -64,14 +62,6 @@ const Panel = () => {
           </Button>
           <Button 
             variant="outlined" 
-            startIcon={<FiLayout />} 
-            onClick={() => setView(<Template />)}
-            disabled
-          >
-            Template
-          </Button>
-          <Button 
-            variant="outlined" 
             startIcon={<FiFileText />} 
             onClick={() => setView(<Posts />)}
           >
@@ -93,14 +83,6 @@ const Panel = () => {
           </Button>
           <Button 
             variant="outlined" 
-            startIcon={<FiActivity />} 
-            onClick={() => setView(<Analytics />)}
-            disabled
-          >
-            Analytics
-          </Button>
-          <Button 
-            variant="outlined" 
             startIcon={<FiSettings />} 
             onClick={() => setView(<Settings />)}
             disabled
@@ -112,14 +94,6 @@ const Panel = () => {
 
       <PanelView>
         <ViewHeader>
-          <ViewHeaderSettings>
-            <IconButton>
-              <FiBell />
-            </IconButton>
-            <IconButton>
-              <FiExternalLink />
-            </IconButton>
-          </ViewHeaderSettings>
           <ViewHeaderSearch>
             <TextField 
               id="outlined-basic"

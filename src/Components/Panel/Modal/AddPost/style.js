@@ -68,7 +68,7 @@ export const ModalHeaderTitle = styled.h4`
   font-weight: 300;
   text-transform: uppercase;
 
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.8);
   `
 
 export const ModalPostDetails = styled.div`
