@@ -1,8 +1,7 @@
-import React from 'react'
-import * as S from '../style'
-import * as MUI from '@mui/material/'
+import * as S from '../style';
+import * as MUI from '@mui/material/';
 
-import TestImage from '../../../../../Assets/Category.png'
+import TestImage from '@src/Assets/Category.png';
 
 const Images = () => {
   return (
@@ -20,7 +19,7 @@ const Images = () => {
         />
         <S.ImageInputLabel htmlFor="raised-button-file">
           <MUI.Button 
-            variant="raised" 
+            variant="outlined" 
             component="span"
             style={{
               border: '1px solid rgba(0, 0, 0, 0.2)',
@@ -32,7 +31,7 @@ const Images = () => {
           </MUI.Button>
           <MUI.TextField 
             disabled 
-            variant="outlined"
+            variant="filled"
             placeholder='Captura de tela de 2022-03-12 00-46-57.png'
             style={{
               width: '460px',

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { Page } from '../../globalStyles'
+import { Page } from '@src/Globals/Styles/globalStyles'
 
 export const LoginPage = styled(Page)`
 

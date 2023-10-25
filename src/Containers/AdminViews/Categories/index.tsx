@@ -11,8 +11,8 @@ import {
   TextField,
 } from '@mui/material/'
 
-import ViewHeader from '../../../Components/Panel/ViewHeader'
-import CategoryItem from '../../../Components/Panel/CategoryItem'
+import ViewHeader from '@src/Components/Panel/ViewHeader'
+import CategoryItem from '@src/Components/Panel/CategoryItem'
 
 const Categories = () => {
 

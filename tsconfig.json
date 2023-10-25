@@ -21,10 +21,11 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Alias for folders */
+    "baseUrl": ".", 
     "paths": {
-      "@src/*": ["./src/*"]
+      "@src/*": ["src/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src/**/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

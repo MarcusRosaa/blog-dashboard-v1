@@ -6,9 +6,9 @@ import {
   TextField,
 } from '@mui/material/'
 
-import ViewHeader from '../../../Components/Panel/ViewHeader'
-import PostItem from '../../../Components/Panel/PostItem'
-import AddPostModal from '../../../Components/Panel/Modal/AddPost'
+import ViewHeader from '@src/Components/Panel/ViewHeader'
+import PostItem from '@src/Components/Panel/PostItem'
+import AddPostModal from '@src/Components/Panel/Modal/AddPost'
 
 const Posts = () => {
 

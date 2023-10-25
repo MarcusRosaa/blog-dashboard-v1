@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import 'react-quill/dist/quill.snow.css';
 
-import Home from './Pages/Home';
-import Login from './Pages/Login';
-import Register from './Pages/Register';
-import Panel from './Pages/Panel';
-import PageNotFound from './Pages/PageNotFound';
+import Home from '@src/Pages/Home';
+import Login from '@src/Pages/Login';
+import Register from '@src/Pages/Register';
+import Panel from '@src/Pages/Panel';
+import PageNotFound from '@src/Pages/PageNotFound';
 
 function App() {
   return (

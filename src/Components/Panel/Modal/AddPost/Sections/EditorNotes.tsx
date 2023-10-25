@@ -1,4 +1,3 @@
-import React from 'react'
 import * as S from '../style'
 import * as MUI from '@mui/material/'
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import * as S from '../style'
 import * as MUI from '@mui/material/'
 
@@ -17,7 +17,7 @@ const MainInfos = () => {
 
   // ---------------------------------------------------------------
 
-  const [chipData, setChipData] = React.useState([
+  const [chipData, setChipData] = useState([
     { key: 0, label: 'Angular' },
     { key: 1, label: 'jQuery' },
     { key: 2, label: 'Polymer' },

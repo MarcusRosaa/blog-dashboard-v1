@@ -33,11 +33,11 @@ import {
   FiExternalLink,
 } from 'react-icons/fi'
 
-import Overview from '../../Containers/AdminViews/Overview'
-import Posts from '../../Containers/AdminViews/Posts'
-import Categories from '../../Containers/AdminViews/Categories'
-import Users from '../../Containers/AdminViews/Users'
-import Settings from '../../Containers/AdminViews/Settings'
+import Overview from '@src/Containers/AdminViews/Overview'
+import Posts from '@src/Containers/AdminViews/Posts'
+import Categories from '@src/Containers/AdminViews/Categories'
+import Users from '@src/Containers/AdminViews/Users'
+import Settings from '@src/Containers/AdminViews/Settings'
 
 const Panel = () => {
 
